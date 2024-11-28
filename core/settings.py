@@ -83,7 +83,7 @@ DATABASES = {
         "NAME": "MY_DB",
         "USER": "postgres",
         "PASSWORD": "123456",
-        "HOST": "127.0.0.1",
+        "HOST": "host.docker.internal",
         "PORT": "5432",
         # "OPTIONS": {"options": "-c search_path=southbridge_maintainer"},
     }
